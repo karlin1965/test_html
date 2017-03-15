@@ -1,0 +1,41 @@
+.gallery {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 324px;
+	padding-left: 2px 2px 2px;
+}
+
+.gallery:hoover {
+	border: 1px solid #777;
+}
+
+.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+.desc {
+	padding: 15px;
+	text-align: center;
+    font-family:verdana;
+}         
+
+.header {
+	background-color: #2E2EFE;
+    text-align:center;
+	font-family:verdana;
+}
+
+.text_red{
+    color: red;
+}
+
+@media(max-width: 500px){
+    .gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 100%;
+    }
+}
